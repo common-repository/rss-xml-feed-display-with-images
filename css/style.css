@@ -1,0 +1,22 @@
+.kdm-rss-xml-feed-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kdm-rss-xml-feed-item {
+    flex: 0 1 30%;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .kdm-rss-xml-feed-item {
+        flex: 0 1 100%;
+    }
+}
+
+.kdm-rss-xml-feed-item img {
+    width: 100%;
+    height: auto;
+}
